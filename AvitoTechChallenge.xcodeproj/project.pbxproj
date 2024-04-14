@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		926DD36A2BC457A200BE2393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3692BC457A200BE2393 /* AppDelegate.swift */; };
 		926DD36C2BC457A200BE2393 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD36B2BC457A200BE2393 /* SceneDelegate.swift */; };
-		926DD36E2BC457A200BE2393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD36D2BC457A200BE2393 /* ViewController.swift */; };
-		926DD3712BC457A200BE2393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DD36F2BC457A200BE2393 /* Main.storyboard */; };
 		926DD3732BC457A300BE2393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926DD3722BC457A300BE2393 /* Assets.xcassets */; };
 		926DD3762BC457A300BE2393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DD3742BC457A300BE2393 /* LaunchScreen.storyboard */; };
 		926DD3812BC457A300BE2393 /* AvitoTechChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3802BC457A300BE2393 /* AvitoTechChallengeTests.swift */; };
 		926DD38B2BC457A300BE2393 /* AvitoTechChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD38A2BC457A300BE2393 /* AvitoTechChallengeUITests.swift */; };
 		926DD38D2BC457A300BE2393 /* AvitoTechChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD38C2BC457A300BE2393 /* AvitoTechChallengeUITestsLaunchTests.swift */; };
+		926DD39E2BC4590D00BE2393 /* iTunesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD39D2BC4590D00BE2393 /* iTunesApi.swift */; };
+		926DD3A12BC4615900BE2393 /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3A02BC4615900BE2393 /* ContentData.swift */; };
+		926DD3A32BC471CB00BE2393 /* SuggestionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3A22BC471CB00BE2393 /* SuggestionEngine.swift */; };
+		926DD3A52BC471DD00BE2393 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3A42BC471DD00BE2393 /* Suggestion.swift */; };
+		926DD3A72BC49EEA00BE2393 /* SearchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3A62BC49EEA00BE2393 /* SearchScreenView.swift */; };
+		926DD3A92BC592AB00BE2393 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DD3A82BC592AB00BE2393 /* ContentCell.swift */; };
+		92A8429A2BC8600E00ACF0C0 /* SearchScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A842992BC8600E00ACF0C0 /* SearchScreenVM.swift */; };
+		92A8429C2BC9CCB600ACF0C0 /* DetailedInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8429B2BC9CCB600ACF0C0 /* DetailedInfoView.swift */; };
+		92A8429E2BCB195F00ACF0C0 /* DetailedInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8429D2BCB195F00ACF0C0 /* DetailedInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		926DD3662BC457A200BE2393 /* AvitoTechChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvitoTechChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DD3692BC457A200BE2393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926DD36B2BC457A200BE2393 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		926DD36D2BC457A200BE2393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		926DD3702BC457A200BE2393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		926DD3722BC457A300BE2393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926DD3752BC457A300BE2393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926DD3772BC457A300BE2393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		926DD3862BC457A300BE2393 /* AvitoTechChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvitoTechChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DD38A2BC457A300BE2393 /* AvitoTechChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoTechChallengeUITests.swift; sourceTree = "<group>"; };
 		926DD38C2BC457A300BE2393 /* AvitoTechChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoTechChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		926DD39D2BC4590D00BE2393 /* iTunesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesApi.swift; sourceTree = "<group>"; };
+		926DD3A02BC4615900BE2393 /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
+		926DD3A22BC471CB00BE2393 /* SuggestionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionEngine.swift; sourceTree = "<group>"; };
+		926DD3A42BC471DD00BE2393 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		926DD3A62BC49EEA00BE2393 /* SearchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenView.swift; sourceTree = "<group>"; };
+		926DD3A82BC592AB00BE2393 /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		92A842992BC8600E00ACF0C0 /* SearchScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenVM.swift; sourceTree = "<group>"; };
+		92A8429B2BC9CCB600ACF0C0 /* DetailedInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoView.swift; sourceTree = "<group>"; };
+		92A8429D2BCB195F00ACF0C0 /* DetailedInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,10 @@
 		926DD3682BC457A200BE2393 /* AvitoTechChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				926DD3692BC457A200BE2393 /* AppDelegate.swift */,
-				926DD36B2BC457A200BE2393 /* SceneDelegate.swift */,
-				926DD36D2BC457A200BE2393 /* ViewController.swift */,
-				926DD36F2BC457A200BE2393 /* Main.storyboard */,
+				926DD39C2BC458CB00BE2393 /* Application */,
+				926DD39B2BC458C300BE2393 /* ViewModel */,
+				926DD39A2BC458BE00BE2393 /* View */,
+				926DD3992BC458B700BE2393 /* Model */,
 				926DD3722BC457A300BE2393 /* Assets.xcassets */,
 				926DD3742BC457A300BE2393 /* LaunchScreen.storyboard */,
 				926DD3772BC457A300BE2393 /* Info.plist */,
@@ -125,6 +139,53 @@
 				926DD38C2BC457A300BE2393 /* AvitoTechChallengeUITestsLaunchTests.swift */,
 			);
 			path = AvitoTechChallengeUITests;
+			sourceTree = "<group>";
+		};
+		926DD3992BC458B700BE2393 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				926DD39F2BC4614100BE2393 /* DataModel */,
+				926DD39D2BC4590D00BE2393 /* iTunesApi.swift */,
+				926DD3A22BC471CB00BE2393 /* SuggestionEngine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		926DD39A2BC458BE00BE2393 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				926DD3A62BC49EEA00BE2393 /* SearchScreenView.swift */,
+				926DD3A82BC592AB00BE2393 /* ContentCell.swift */,
+				92A8429B2BC9CCB600ACF0C0 /* DetailedInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		926DD39B2BC458C300BE2393 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92A842992BC8600E00ACF0C0 /* SearchScreenVM.swift */,
+				92A8429D2BCB195F00ACF0C0 /* DetailedInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		926DD39C2BC458CB00BE2393 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				926DD36B2BC457A200BE2393 /* SceneDelegate.swift */,
+				926DD3692BC457A200BE2393 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		926DD39F2BC4614100BE2393 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				926DD3A02BC4615900BE2393 /* ContentData.swift */,
+				926DD3A42BC471DD00BE2393 /* Suggestion.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +294,6 @@
 			files = (
 				926DD3762BC457A300BE2393 /* LaunchScreen.storyboard in Resources */,
 				926DD3732BC457A300BE2393 /* Assets.xcassets in Resources */,
-				926DD3712BC457A200BE2393 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926DD36E2BC457A200BE2393 /* ViewController.swift in Sources */,
+				926DD39E2BC4590D00BE2393 /* iTunesApi.swift in Sources */,
+				926DD3A32BC471CB00BE2393 /* SuggestionEngine.swift in Sources */,
+				926DD3A72BC49EEA00BE2393 /* SearchScreenView.swift in Sources */,
+				926DD3A92BC592AB00BE2393 /* ContentCell.swift in Sources */,
+				92A8429C2BC9CCB600ACF0C0 /* DetailedInfoView.swift in Sources */,
+				92A8429E2BCB195F00ACF0C0 /* DetailedInfoViewModel.swift in Sources */,
 				926DD36A2BC457A200BE2393 /* AppDelegate.swift in Sources */,
 				926DD36C2BC457A200BE2393 /* SceneDelegate.swift in Sources */,
+				926DD3A52BC471DD00BE2393 /* Suggestion.swift in Sources */,
+				92A8429A2BC8600E00ACF0C0 /* SearchScreenVM.swift in Sources */,
+				926DD3A12BC4615900BE2393 /* ContentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		926DD36F2BC457A200BE2393 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				926DD3702BC457A200BE2393 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		926DD3742BC457A300BE2393 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +502,6 @@
 				INFOPLIST_FILE = AvitoTechChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +529,6 @@
 				INFOPLIST_FILE = AvitoTechChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
